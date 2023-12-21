@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/DisjointSet.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/DisjointSet.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Element.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Element.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Graph/Graph.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Graph/Graph.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/Heap.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/Heap.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/HeapNode.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/HeapNode.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/MinHeap.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Heap/MinHeap.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Queue.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Queue.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Set.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/Array/Set.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/AbstractGraph.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/AbstractGraph.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/Path.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/Path.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/Edge.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/Edge.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/EdgeList.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/EdgeList.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/Graph.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Graph/Graph.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Node.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Node.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Queue.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Queue.cpp.obj.d"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/main.cpp.obj"
+  "CMakeFiles/graph_puzzle_game_emirhanalabas.dir/main.cpp.obj.d"
+  "graph_puzzle_game_emirhanalabas.exe"
+  "graph_puzzle_game_emirhanalabas.exe.manifest"
+  "graph_puzzle_game_emirhanalabas.pdb"
+  "libgraph_puzzle_game_emirhanalabas.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/graph_puzzle_game_emirhanalabas.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

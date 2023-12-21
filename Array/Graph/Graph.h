@@ -7,6 +7,7 @@
 
 #include "../../General/AbstractGraph.h"
 #include "../../List/Graph/Edge.h"
+#include <string>
 
 namespace array{
     class Graph : public AbstractGraph{
@@ -22,10 +23,20 @@ namespace array{
         Path* dijkstra(int source);
         int** floydWarshall();
         void prim();
+
+        void addWords(int index, std::string word);
+
+        std::string *words;
+
+        void printEdges();
+
+        void connect();
+
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;
         Edge* edgeList(int& edgeCount) override;
+
     };
 
 }
