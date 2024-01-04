@@ -41,6 +41,7 @@ namespace list {
 
         void addEdge(std::string from, std::string to);
 
+        void BFS(std::string from, std::string to);
     };
 
 }

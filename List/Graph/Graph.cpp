@@ -84,6 +84,26 @@ namespace list {
         }
     }
 
+    void Graph::BFS(std::string from, std::string to) {
+        Edge* edge;
+        int fromIndex = findIndex(from), toIndex = findIndex(to);
+        bool* visited[1000];
+        Queue queue = Queue();
+        queue.enqueue(new Node(fromIndex));
+        while (!queue.isEmpty()){
+            fromIndex = queue.dequeue()->getData();
+            edge = edges[fromIndex].getHead();
+            while (edge != nullptr) {
+                toIndex = edge->getTo();
+                if (!visited[toIndex]){
+                    visited[toIndex] = reinterpret_cast<bool *>(true);
+                    queue.enqueue(new Node(toIndex));
+                }
+                edge = edge->getNext();
+            }
+        }
+    }
+
     Path *Graph::bellmanFord(int source) {
         Edge* edge;
         Path* shortestPaths = initializePaths(source);

@@ -1,3 +1,3 @@
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/graph_puzzle_game_emirhanalabas.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/graph_puzzle_game_emirhanalabas.dir
+C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,6 @@
 CMakeFiles/graph_puzzle_game_emirhanalabas.dir/List/Node.cpp.obj: \
- C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-emirhanalabas\List\Node.cpp \
- C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-emirhanalabas\List\Node.h \
+ C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-emirhanalabas\List\Node.cpp \
+ C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-emirhanalabas\List\Node.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

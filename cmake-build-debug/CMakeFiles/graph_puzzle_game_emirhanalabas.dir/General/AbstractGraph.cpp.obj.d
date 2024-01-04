@@ -1,5 +1,5 @@
 CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/AbstractGraph.cpp.obj: \
- C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-emirhanalabas\General\AbstractGraph.cpp \
+ C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-emirhanalabas\General\AbstractGraph.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -14,8 +14,8 @@ CMakeFiles/graph_puzzle_game_emirhanalabas.dir/General/AbstractGraph.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-emirhanalabas\General\AbstractGraph.h \
- C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-emirhanalabas\General\Path.h \
- C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/Edge.h \
- C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/DisjointSet.h \
- C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Set.h
+ C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-emirhanalabas\General\AbstractGraph.h \
+ C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-emirhanalabas\General\Path.h \
+ C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/Edge.h \
+ C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/DisjointSet.h \
+ C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Set.h
