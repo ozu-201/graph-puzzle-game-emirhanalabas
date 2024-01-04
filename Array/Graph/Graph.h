@@ -24,14 +24,6 @@ namespace array{
         int** floydWarshall();
         void prim();
 
-        void addWords(int index, std::string word);
-
-        std::string *words;
-
-        void printEdges();
-
-        void connect();
-
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;

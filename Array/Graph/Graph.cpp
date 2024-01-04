@@ -13,7 +13,6 @@
 namespace array{
 
     Graph::Graph(int vertexCount) : AbstractGraph(vertexCount){
-        words = new std::string[vertexCount];
         edges = new int*[vertexCount];
         for (int i = 0; i < vertexCount; i++){
             edges[i] = new int[vertexCount];
@@ -38,23 +37,6 @@ namespace array{
 
     void Graph::addEdge(int from, int to, int weight) {
         edges[from][to] = weight;
-    }
-
-    void Graph::connect() {
-        for (int i = 0; i < words->length(); i++) {
-            for (int j = i; j < words->length(); j++) {
-                int diffCount = 0;
-                for (int k = 0; k < 4; k++) {
-                    if (words[i][k] != words[j][k]) {
-                        diffCount++;
-                    }
-                }
-                if (diffCount == 1) {
-                    edges[i][j] = 1;
-                    edges[j][i] = 1;
-                }
-            }
-        }
     }
 
     void Graph::connectedComponentDisjointSet() {
@@ -198,23 +180,6 @@ namespace array{
                     paths[toNode].setPrevious(fromNode);
                 }
             }
-        }
-    }
-
-    void Graph::addWords(int index, std::string word) {
-        words[index] = std::move(word);
-    }
-
-    void Graph::printEdges() {
-        for (int i = 0; i < vertexCount; i++){
-            std::string s = "";
-            for (int j = 0; j < vertexCount; j++){
-                std::string edge = std::to_string(edges[i][j]);
-                s.append(edge);
-                s.append(" ");
-
-            }
-            std::cout << s << std::endl;
         }
     }
 

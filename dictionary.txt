@@ -1,9 +1,8 @@
-heal
-heap
-heat
-dark
-tree
+achy
+ache
 can
-eat
-cap
-
+cal
+cel
+mekan
+mekal
+mekel

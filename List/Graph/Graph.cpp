@@ -7,6 +7,8 @@
 #include "../../Array/DisjointSet.h"
 #include "../Queue.h"
 #include "../../Array/Heap/MinHeap.h"
+#include <string>
+#include <iostream>
 
 namespace list {
 
@@ -15,6 +17,8 @@ namespace list {
         for (int i = 0; i < vertexCount; i++) {
             edges[i] = EdgeList();
         }
+        words = new std::string[vertexCount];
+        wordNumber = 0;
     }
 
     void Graph::addEdge(int from, int to) {
@@ -171,5 +175,83 @@ namespace list {
             }
         }
     }
+
+    void Graph::addWords(std::string word) {
+        words[wordNumber] = std::move(word);
+        wordNumber++;
+    }
+
+    void Graph::addEdge(std::string from, std::string to) {
+        int l = from.length();
+        int indexFrom = findIndex(from);
+        int indexTo = findIndex(to);
+        int diffCount = 0;
+
+        for (int j = 0; j < l; j++) {
+            if (from[j] != to[j]) {
+                diffCount++;
+            }
+        }
+
+        if (diffCount == 1) {
+            Edge* edge = new Edge(indexFrom, indexTo, 1);
+            edges[indexFrom].insert(edge);
+            Edge* edge2 = new Edge(indexTo, indexFrom, 1);
+            edges[indexTo].insert(edge2);
+        }
+    }
+
+    void Graph::connect() {
+        for (int i = 0; i < words->length(); i++) {
+            for (int j = i; j < words->length(); j++) {
+                if (i == j) {
+                    continue;
+                } else {
+                    addEdge(words[i], words[j]);
+                }
+            }
+        }
+    }
+
+    int Graph::findIndex(std::string s) {
+        int result;
+        int diffCount = 0;
+        for (int i = 0; i < wordNumber; i++) {
+            if (s.length() == words[i].length()) {
+                for (int j = 0; j < s.length(); j++) {
+                    if (s[j] != words[i][j]) {
+                        diffCount++;
+                    }
+                }
+            }
+            if (diffCount == 0) {
+                result = i;
+                break;
+            }
+            diffCount = 0;
+        }
+        return result;
+    }
+
+    void Graph::dijkstra(std::string start, std::string end) {
+        int indexStart = findIndex(start);
+        int indexEnd = findIndex(end);
+        std::string result;
+
+        Path* paths = dijkstra(indexStart);
+        Path path = paths[indexEnd];
+
+        while (path.getDistance() != -1) {
+            result.insert(0, words[indexEnd] + " ");
+            indexEnd = path.getPrevious();
+            if (indexEnd == indexStart) {
+                result.insert(0, words[indexStart] + " ");
+                break;
+            }
+            path = paths[indexEnd];
+        }
+        std::cout << result << std::endl;
+    }
+
 
 }

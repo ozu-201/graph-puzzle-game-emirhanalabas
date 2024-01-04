@@ -15,6 +15,8 @@ public:
     int getDistance() const;
     void setDistance(int _distance);
     void setPrevious(int _previous);
+
+    int getPrevious() const;
 };
 
 #endif //GRAPH_PUZZLE_GAME_EMIRHANALABAS_PATH_H

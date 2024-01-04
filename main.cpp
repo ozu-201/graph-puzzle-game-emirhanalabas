@@ -3,7 +3,7 @@
 //
 
 #include "main.h"
-#include "Graph.h"
+#include "List/Graph/Graph.h"
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -15,7 +15,7 @@ int main() {
     int size5 = 0;
 
 
-    std::ifstream file("C:\\Users\\TEMP\\Documents\\GitHub\\graph-puzzle-game-emirhanalabas\\dictionary.txt");
+    std::ifstream file("C:\\Users\\TEMP.OZUN\\CLionProjects\\graph-puzzle-game-emirhanalabas\\dictionary.txt");
     if (file.is_open()) {
         std::string line;
         while (std::getline(file, line)) {
@@ -40,27 +40,20 @@ int main() {
         std::cout << "file not found" << std::endl;
     }
 
-    array::Graph graph3(size3);
-    array::Graph graph4(size4);
-    array::Graph graph5(size5);
+    list::Graph graph3(size3);
+    list::Graph graph4(size4);
+    list::Graph graph5(size5);
 
-    int index3 = 0;
-    int index4 = 0;
-    int index5 = 0;
-
-    std::ifstream file2("C:\\Users\\TEMP\\Documents\\GitHub\\graph-puzzle-game-emirhanalabas\\dictionary.txt");
+    std::ifstream file2("C:\\Users\\TEMP.OZUN\\CLionProjects\\graph-puzzle-game-emirhanalabas\\dictionary.txt");
     if (file2.is_open()) {
         std::string line;
         while (std::getline(file2, line)) {
             if (line.length() == 3) {
-                graph3.addWords(index3, line);
-                index3++;
+                graph3.addWords(line);
             } else if (line.length() == 4) {
-                graph4.addWords(index4, line);
-                index4++;
+                graph4.addWords(line);
             } else if (line.length() == 5) {
-                graph5.addWords(index5, line);
-                index5++;
+                graph5.addWords(line);
             }
         }
 
@@ -70,17 +63,10 @@ int main() {
         std::cout << "file not found" << std::endl;
     }
 
-
-
-    std::cout << "Edges for words with 3 letters:" << std::endl;
-
     graph3.connect();
-    graph3.printEdges();
+    graph3.dijkstra("can", "cel");
 
-    std::cout << "Edges for words with 4 letters:" << std::endl;
 
-    graph4.connect();
-    graph4.printEdges();
 
 
 

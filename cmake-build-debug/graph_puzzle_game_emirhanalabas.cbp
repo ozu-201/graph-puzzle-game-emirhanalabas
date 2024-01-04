@@ -8,26 +8,26 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
+				<Option working_dir="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="graph_puzzle_game_emirhanalabas">
-				<Option output="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/graph_puzzle_game_emirhanalabas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
+				<Option output="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/graph_puzzle_game_emirhanalabas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Graph"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Graph"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -37,23 +37,23 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph_puzzle_game_emirhanalabas"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph_puzzle_game_emirhanalabas"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="graph_puzzle_game_emirhanalabas/fast">
-				<Option output="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/graph_puzzle_game_emirhanalabas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
+				<Option output="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/graph_puzzle_game_emirhanalabas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Graph"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap"/>
-					<Add directory="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Graph"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap"/>
+					<Add directory="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -63,130 +63,130 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph_puzzle_game_emirhanalabas/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph_puzzle_game_emirhanalabas/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
+				<Option working_dir="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
+				<Option working_dir="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/DisjointSet.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/DisjointSet.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/DisjointSet.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/DisjointSet.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Element.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Element.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Element.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Element.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Graph/Graph.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Graph/Graph.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Graph/Graph.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Graph/Graph.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/Heap.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/Heap.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/Heap.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/Heap.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/HeapNode.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/HeapNode.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/HeapNode.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/HeapNode.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/MinHeap.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/MinHeap.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Heap/MinHeap.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Heap/MinHeap.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Queue.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Queue.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Queue.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Queue.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Set.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Set.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/Array/Set.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/Array/Set.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/General/AbstractGraph.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/General/AbstractGraph.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/General/AbstractGraph.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/General/AbstractGraph.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/General/Path.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/General/Path.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/General/Path.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/General/Path.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/Edge.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/Edge.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/Edge.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/Edge.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/EdgeList.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/EdgeList.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/EdgeList.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/EdgeList.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/Graph.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/Graph.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Graph/Graph.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Graph/Graph.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Node.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Node.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Node.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Node.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Queue.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Queue.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/List/Queue.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/List/Queue.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/main.cpp">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/main.cpp">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/main.h">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/main.h">
 			<Option target="graph_puzzle_game_emirhanalabas"/>
 		</Unit>
-		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-emirhanalabas/CMakeLists.txt">
+		<Unit filename="C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-emirhanalabas/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
